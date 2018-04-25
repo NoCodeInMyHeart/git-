@@ -1,0 +1,14 @@
+文件作用:github创建项目为空项目，我们如何直接将本地项目同步到新创建的git项目呢？以下步骤可以实现
+
+
+1.初始化文件夹为git仓库
+	git init
+	
+2.将本地git仓库和远程的git仓库同步
+	git remote add origin https://github.com/xxx
+
+3.从远程git仓库拉取代码，保证本地git仓库和远程git仓库的一致性
+	git pull origin master
+	
+4.执行提交操作
+	执行 commit，push操作即可
